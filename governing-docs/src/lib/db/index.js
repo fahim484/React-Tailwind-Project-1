@@ -112,7 +112,7 @@ export const problemSolutions = [
 export const reviews = [
   {
     name: "David",
-    image: "david.png",
+    image: "Img/david.png",
     type: "Happy Client",
     review: {
       stars: 4,
@@ -122,7 +122,7 @@ export const reviews = [
   },
   {
     name: "John Smith",
-    image: "john-smith.png",
+    image: "Img/john-smith.png",
     type: "Happy Client",
     review: {
       stars: 5,
@@ -133,7 +133,7 @@ export const reviews = [
   },
   {
     name: "Ronald Richards",
-    image: "ronald-richards.png",
+    image: "Img/ronald-richards.png",
     type: "Happy Client",
     review: {
       stars: 5,
