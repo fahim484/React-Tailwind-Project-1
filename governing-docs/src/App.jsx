@@ -1,14 +1,15 @@
-import { Button } from "./components/common/Button";
-import { SectionTitle } from "./components/common/SectionTitle";
-import { Faq } from "./components/home/Faq";
-import { Hero } from "./components/home/Hero";
-import { Note } from "./components/home/Note";
-import { Partners } from "./components/home/Partners";
-import { ProblemSolution } from "./components/home/ProblemSolution";
-import { Reviews } from "./components/home/Reviews";
-import { Footer } from "./components/shared/Footer";
-import { MobileMenu } from "./components/shared/MobileMenu";
-import { Navbar } from "./components/shared/Navbar";
+// import { Button } from "./components/common/Button";
+// import { SectionTitle } from "./components/common/SectionTitle";
+// import { MobileMenu } from "./components/shared/MobileMenu";
+import {
+  Faq,
+  Hero,
+  Note,
+  Partners,
+  ProblemSolution,
+  Reviews,
+} from "./components/home";
+import { Footer, Navbar } from "./components/shared";
 
 const App = () => {
   return (
