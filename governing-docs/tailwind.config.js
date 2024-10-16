@@ -22,6 +22,10 @@ export default {
         card: "0px 10px 30px 0px #02B6DC26",
         faq: "0px 0px 25px 0px #02B6DC26",
       },
+      borderRadius: {
+        'custom': '20px',     // Add a custom value (e.g., 12px)
+        'lg-custom': '1.5rem', // You can use rem or any other unit
+      }
     },
   },
   plugins: [],

@@ -1,5 +1,6 @@
 import { Button } from "./components/common/Button";
 import { SectionTitle } from "./components/common/SectionTitle";
+import { Faq } from "./components/home/Faq";
 import { Hero } from "./components/home/Hero";
 import { Partners } from "./components/home/Partners";
 import { ProblemSolution } from "./components/home/ProblemSolution";
@@ -16,6 +17,8 @@ const App = () => {
       <ProblemSolution />
       <Reviews />
       <Partners />
+      <Faq />
+      {/* <Note /> */}
       <Footer />
     </main>
   );

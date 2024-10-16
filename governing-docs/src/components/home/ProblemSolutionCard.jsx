@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 export const ProblemSolutionCard = ({ image, title, des1, des2 }) => (
-  <div className="transition-colors duration-200 w-[272px] h-[349px] rounded-[20px] p-5 space-y-5 shadow-card hover:bg-primary group">
+  <div className="transition-colors duration-200 w-[272px] h-[349px] rounded-custom p-5 space-y-5 shadow-card hover:bg-primary group">
     <div className="bg-primary size-[58px] rounded-full flex justify-center items-center">
       <img src={image} alt={title} />
     </div>
