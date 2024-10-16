@@ -12,7 +12,7 @@ export const ProblemSolutionHeader = () => {
         <div className='flex justify-center items-center gap-[15px]'>
             {/* <button className='bg-white size-10 rounded-full text-primary flex justify-center items-center shadow-arrow-btn'><Arrow/></button>
             <button className='bg-gradient-primary size-10 rounded-full text-white flex justify-center items-center shadow-arrow-btn'><Arrow/></button> */}
-            <ArrowButton />
+            <ArrowButton className="rotate-180" />
             <ArrowButton className="bg-gradient-primary text-white" />
         </div>
     </div>

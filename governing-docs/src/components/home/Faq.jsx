@@ -27,7 +27,7 @@ export const Faq = () => {
         </div>
       </div>
       <img
-        src="/faq-bg-line.svg"
+        src="Img/faq-bg-line.svg"
         alt="Faq Bg Line"
         className="absolute z-0 -top-[115px] -left-[540px] 2xl:-left-[23.8%] h-[590px] !w-[1713px]"
       />
