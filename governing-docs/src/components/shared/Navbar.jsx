@@ -3,7 +3,7 @@ import { Logo } from "./logo";
 // import { navItems } from "../../lib/db";
 import { Button } from "../common/Button";
 import { MobileMenu } from "./MobileMenu";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { NavItems } from "../common/NavItems";
 
 export const Navbar = () => {
@@ -11,11 +11,24 @@ export const Navbar = () => {
   // const toggleMenus = () => setIsMenusOpen(!isMenusOpen);
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 
+  useEffect(() => {
+    // Add or remove the 'no-scroll' class to the body to prevent background scrolling
+    const bodyClass = document.body.classList;
+
+    isMenuOpen ? bodyClass.add("no-scroll") : bodyClass.remove("no-scroll");
+
+    // Cleanup when the component is unmounted or menu is closed
+    return () => bodyClass.remove("no-scroll");
+  }, [isMenuOpen]);
+
   return (
     <nav className="py-5 sm:py-8 xl:py-11 relative">
       <Container className="px-1.5 sm:px-5 xl:px-[26px]">
         <div className="flex justify-between items-center gap-2.5 px-2 pl-2.5 sm:px-5 xl:px-[30px] py-2 sm:py-3.5 xl:py-5 bg-white rounded-full">
           <Logo />
+
+          {/* Navigation items for large screens */}
+          
           {/* <div className="hidden lg:flex justify-center items-center gap-3 xl:gap-4">
             {navItems.map(({ label, link }, i) => (
               <a href={link} key={i}>

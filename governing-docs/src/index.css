@@ -6,6 +6,12 @@
 @tailwind utilities;
 
 
+/* Prevent body scrolling when the mobile menu is open */
+.no-scroll {
+    overflow: hidden;
+  }
+
+
 /* Gradient Border Color: */
 .footer-border-color {
     border-image-source: linear-gradient(180deg, #00D2FF 0%, #059DBE 100%);
