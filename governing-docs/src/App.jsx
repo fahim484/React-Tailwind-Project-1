@@ -1,6 +1,7 @@
 import { Button } from "./components/common/Button";
 import { SectionTitle } from "./components/common/SectionTitle";
 import { Hero } from "./components/home/Hero";
+import { Partners } from "./components/home/Partners";
 import { ProblemSolution } from "./components/home/ProblemSolution";
 import { Reviews } from "./components/home/Reviews";
 import { Footer } from "./components/shared/Footer";
@@ -14,6 +15,7 @@ const App = () => {
       <Hero />
       <ProblemSolution />
       <Reviews />
+      <Partners />
       <Footer />
     </main>
   );

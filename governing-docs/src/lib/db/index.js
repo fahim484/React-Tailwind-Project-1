@@ -42,48 +42,6 @@ export const socialIcon = [
   },
 ];
 
-export const faqs = [
-  {
-    q: "Is my data secure?",
-    a: "We cover a wide range of documents, including contracts, NDAs, compliance reports, and more. ",
-  },
-  {
-    q: "What types of documents can Ai GoverningDocs generate?",
-    a: "We cover a wide range of documents, including contracts, NDAs, compliance reports, and more. ",
-  },
-  {
-    q: "Can I customize the documents?",
-    a: "We cover a wide range of documents, including contracts, NDAs, compliance reports, and more. ",
-  },
-];
-
-export const partners = [
-  {
-    src: "/partners-1.png",
-    alt: "Partner 1",
-  },
-  {
-    src: "/partners-2.png",
-    alt: "Partner 2",
-  },
-  {
-    src: "/partners-3.png",
-    alt: "Partner 3",
-  },
-  {
-    src: "/partners-4.png",
-    alt: "Partner 4",
-  },
-  {
-    src: "/partners-5.png",
-    alt: "Partner 5",
-  },
-  {
-    src: "/partners-6.png",
-    alt: "Partner 6",
-  },
-];
-
 export const problemSolutions = [
   {
     image: "Img/problem.svg",
@@ -140,5 +98,47 @@ export const reviews = [
       title: "Outstanding Support!",
       details: "The customer support team was quick to resolve my issues.",
     },
+  },
+];
+
+export const partners = [
+  {
+    src: "Img/partners-1.png",
+    alt: "Partner 1",
+  },
+  {
+    src: "Img/partners-2.png",
+    alt: "Partner 2",
+  },
+  {
+    src: "Img/partners-3.png",
+    alt: "Partner 3",
+  },
+  {
+    src: "Img/partners-4.png",
+    alt: "Partner 4",
+  },
+  {
+    src: "Img/partners-5.png",
+    alt: "Partner 5",
+  },
+  {
+    src: "Img/partners-6.png",
+    alt: "Partner 6",
+  },
+];
+
+export const faqs = [
+  {
+    q: "Is my data secure?",
+    a: "We cover a wide range of documents, including contracts, NDAs, compliance reports, and more. ",
+  },
+  {
+    q: "What types of documents can Ai GoverningDocs generate?",
+    a: "We cover a wide range of documents, including contracts, NDAs, compliance reports, and more. ",
+  },
+  {
+    q: "Can I customize the documents?",
+    a: "We cover a wide range of documents, including contracts, NDAs, compliance reports, and more. ",
   },
 ];
