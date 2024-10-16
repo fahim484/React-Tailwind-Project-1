@@ -1,13 +1,19 @@
-import React from 'react'
+import { problemSolutions } from '../../lib/db'
 import { Container } from '../common/Container'
 import { ProblemSolutionHeader } from './ProblemSolutionHeader'
+import { ProblemSolutionCard } from "./ProblemSolutionCard";
 
 export const ProblemSolution = () => {
   return (
     <section className='pt-32'>
       <Container>
         <ProblemSolutionHeader />
-        <div>list</div>
+
+        <div className="pt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center gap-5 lg:gap-[30px]">
+          {problemSolutions.map((card, i) => (
+            <ProblemSolutionCard key={i} {...card} />
+          ))}
+        </div>
       </Container>
     </section>
   )
